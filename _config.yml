@@ -65,15 +65,16 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-#deploy:
-#  type:git
-#  repo:https://github.com/aliang0113/vvin.github.io
-#  branche:master
-#  massage:aaa
-
+ Deployment
+# Docs: https://hexo.io/docs/deployment.html
 deploy:
-type: git
-repo: git@www.moumaobuchiyu.com:/var/repo/blog.git
-branch: master
+  type:git
+  repo:https://github.com/aliang0113/vvin.github.io
+  branche:master
+  massage:aaa
+
+#deploy:
+#type: git
+##repo: git@www.moumaobuchiyu.com:/var/repo/blog.git
+#repo:https://github.com/aliang0113/vvin.github.io
+#branch: master
